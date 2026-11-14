@@ -75,6 +75,8 @@ class ClockRegistryProvider(
                 "com.android.systemui.clocks.metro",
                 "com.android.systemui.clocks.numoverlap",
                 "com.android.systemui.clocks.weather",
+                // DriftVaneOS lock screen clocks
+                "org.driftvane.clocks",
             ),
             PluginEnabler.AlwaysEnabled(),
             Executors.newSingleThreadExecutor(),
